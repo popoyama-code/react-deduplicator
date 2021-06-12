@@ -25,4 +25,18 @@ const StyledTextArea = styled.textarea(props => `
   :not(:placeholder-shown) {
     background: ${properties.COLOR.WHITE};
   }
+  
+  &::-webkit-scrollbar {
+    width: 12px;
+    background-color: ${properties.COLOR.GRAY_LIGHT};
+  }
+  
+  &::-webkit-scrollbar-track{
+    border-radius: 3px;
+    background-color: transparent;
+  }
+  
+  &::-webkit-scrollbar-thumb{
+    border-radius:5px;
+    background-color:${properties.COLOR.GRAY_DARK};
 `)

@@ -1,7 +1,7 @@
 import React, { useState, useRef, useCallback, useEffect } from 'react'
 import AppTemplate from '../components/templates/appTemplate'
 import {sortByName} from '../helper/appHelper'
-import constants from '../components/_settings/_constants'
+import constants from '../helper/constants'
 export const AppContext = React.createContext()
 
 function AppPage() {

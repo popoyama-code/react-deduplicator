@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 
+import properties from '../../_settings/_properties'
+
 const Tooltip = ({children}) => {
   return (
     <StyledTooltip>
@@ -10,10 +12,10 @@ const Tooltip = ({children}) => {
 }
 
 const StyledTooltip = styled.div(props => `
-  background-color: #333;
+  background-color: ${properties.COLOR.BLACK};
   border: none;
   border-radius:.25rem;
-  color: #fff;
+  color: ${properties.COLOR.WHITE};
   display: inline-block;
   padding: .5rem 1rem;
   position: relative;

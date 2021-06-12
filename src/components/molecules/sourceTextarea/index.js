@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import TextArea from '../../atoms/textarea'
 import Label from '../../atoms/label'
 import properties from '../../_settings/_properties'
-import constants from '../../_settings/_constants'
+import constants from '../../../helper/constants'
 import  {AppContext} from '../../../pages/appPage'
 
 export default React.forwardRef((props, ref) => {

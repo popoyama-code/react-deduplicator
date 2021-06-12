@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import constants from '../../_settings/_constants'
+import constants from '../../../helper/constants'
 import Text from '../../atoms/text'
 import Dropdown from '../../atoms/dropdown'
 

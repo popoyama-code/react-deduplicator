@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Box from '../../atoms/box'
 import Text from '../../atoms/text'
-import constants from '../../_settings/_constants'
+import constants from '../../../helper/constants'
 import properties from '../../_settings/_properties'
 // notification
 const Alert = React.memo(({children}) => {

@@ -70,7 +70,7 @@ const StyledButtonBlock = styled.div(props => `
 const StyledCopyright = styled.small(props => `
   bottom: 0;right: 0;
   color: rgba(0, 0, 0, .3);
-  font-size: 1.3rem;
+  font-size: 1rem;
   position: fixed;
 `)
 
