@@ -5,4 +5,4 @@
 # Author
 popoyama
 # DEMO
-https://app.popos.work/deduplicator/
+https://deduplicator.p-p.dev/
