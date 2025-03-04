@@ -45,7 +45,7 @@ const Deduplication = React.memo((props) => {
           </StyledButtonBlock>
         </Section>
       </StretchyBox>
-      <StyledCopyright>©popos.work 2021</StyledCopyright>
+      <StyledCopyright>©p-p.dev 2025</StyledCopyright>
     </StyledDeduplication>
   )
 })
